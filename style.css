@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans:wght@100;400&family=Bebas+Neue&family=Indie+Flower&display=swap');
+
+
+body {
+  background-image:url('https://img.freepik.com/free-vector/pastel-sky-background_23-2148900230.jpg?w=2000&t=st=1690803556~exp=1690804156~hmac=4b0f6b0bf48f4d85d006e5d141ce7f7c8f68a388822b119e9316746920d7a659');
+  font-family: 'Alegreya Sans';
+  text-align: center;
+  background-repeat: none;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#profil_picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10% 30% 10% 30%;
+  box-shadow: 0px 0px 200px rgba(60, 60, 60, 0.7)
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  background-color:#E1BB80;
+}
+
+h1 {
+  font-family: 'Abril Fatface';
+  font-size: 45px;
+  color: rgb (20, 40, 60);
+}
+
+h2 {
+  font-family: 'Bebas Neue' ;
+  font-size: 35px;
+  text-decoration-line: underline overline;
+}
+
+h3{
+  font-family: 'Indie flower' ;
+  font-size: 25px;
+  text-decoration-line: underline;
+}
+
+p {
+  font-family: 'Indie flower' ;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding-left: 0px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  width: 800px;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.medium_rounded_picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  opacity: 0.9;
+  object-fit: cover;
+}
+
+.medium_button_rounded {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.button_blue {
+  background-color: #235789;
+}
+
+.icon_large {
+  font-size: 3em;
+}
+
+.font_color_blue {
+  color: #235789;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
